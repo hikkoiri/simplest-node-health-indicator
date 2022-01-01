@@ -21,13 +21,12 @@ Execute `npm start`
 Adapt the template file `simplest-node-health-indicator.service` and store it in the right location:
 
 ```bash
-sudo nano /etc/systemd/system/home-assistant@homeassistant.service
+sudo nano /etc/systemd/system/simplest-node-health-indicator.service
 #enter systemd file content
 sudo systemctl --system daemon-reload
-sudo systemctl enable home-assistant@homeassistant
-sudo systemctl start home-assistant@homeassistant
-sudo systemctl status home-assistant@homeassistant
-
+sudo systemctl enable simplest-node-health-indicator
+sudo systemctl start simplest-node-health-indicator
+sudo systemctl status simplest-node-health-indicator
 ```
 
 > Hint, make sure that the port `3005` is enabled in your firewall configuration.
