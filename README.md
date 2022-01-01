@@ -2,6 +2,7 @@
 
 - [simplest-node-health-indicator](#simplest-node-health-indicator)
   - [About](#about)
+  - [Installation](#installation)
   - [Development](#development)
   - [Run](#run)
   - [Configure as systemd service](#configure-as-systemd-service)
@@ -9,6 +10,10 @@
 
 ## About 
 Really, this is just a simple Hello World app with CORS enabled. But the app serves it very limited purpose perfectly fine.
+
+## Installation
+
+Run `npm install`
 
 ## Development
 Run `npm run watch` for instantaneous reloads.
